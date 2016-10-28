@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">DatePickerDialogEditTextClickEvent</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+
+    <string name="from_date">From Date</string>
+    <string name="to_date">To Date</string>
+    <string name="intoduce_tu_nombre">Intodueix el teu nom</string>
+    <string name="fecha_de_nacimiento">data de naixement</string>
+    <string name="sexo">sexe</string>
+    <string name="hombre">Home</string>
+    <string name="mujer">Dona</string>
+    <string name="vicios">Vicis</string>
+    <string name="juego">joc</string>
+    <string name="drogas">Droges</string>
+    <string name="haz_click_en_el_boton_para_saber_tu_destino">Fes click al boto per sapigue el teu destí</string>
+    <string name="calcular">Calcula</string>
+
+
+    <string-array name="muertes1">
+        <item>Mentre veia la tele es va ennuegar amb un ganchito i es va asfixiar</item>
+        <item>Va anar una tarda a mirar mobles de ikea, va deixar de seguir les fletxes del terra i es va perdre, va morir de inalició, van trobar el cos 5 setmanes mes tard</item>
+        <item>Va arribar tard a sopar, la seva mare li va llençar una sabata, va ser mortal</item>
+        <item>Es va posar a caminar pel carrer tranquilament, va caure de cara, va ser un cop sec</item>
+        <item>Va posar la calefacció a casa seva tot el hivern sense preocuparse de res, va morir cuan va veure la factura</item>
+    </string-array>
+
+</resources>

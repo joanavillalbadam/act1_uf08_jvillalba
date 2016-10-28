@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">DatePickerDialogEditTextClickEvent</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+
+    <string name="from_date">From Date</string>
+    <string name="to_date">To Date</string>
+    <string name="intoduce_tu_nombre">Intoduce tu nombre</string>
+    <string name="fecha_de_nacimiento">fecha de nacimiento</string>
+    <string name="sexo">sexo</string>
+    <string name="hombre">Hombre</string>
+    <string name="mujer">Mujer</string>
+    <string name="vicios">vicios</string>
+    <string name="juego">juego</string>
+    <string name="drogas">Drogas</string>
+    <string name="haz_click_en_el_boton_para_saber_tu_destino">haz click en el boton para saber tu destino</string>
+    <string name="calcular">Calcular</string>
+
+
+    <string-array name="muertes1">
+        <item>Mientras veia la tele se atraganto con un ganchito y se asfixió</item>
+        <item>Fue una tarde a mirar muebles al ikea, dejo de seguir las flechas del suelo y se perdió, murio de inalicion, lo encontraron 5 semanas mas tarde</item>
+        <item>Llego tarde a cenar, su madre le tiro una zapatilla, fue mortal</item>
+        <item>se puso a caminar por la calle tranquilamente, se cayo de cara, fue un golpe seco</item>
+        <item>Puso la calefaccion en su casa durante todo el invierno sin preocuparse de nada, murio al ver la factura</item>
+    </string-array>
+
+</resources>

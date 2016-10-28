@@ -11,21 +11,24 @@ package com.exemple.profedam.datepicker;
     import android.app.Activity;
     import android.app.DatePickerDialog;
     import android.app.DatePickerDialog.OnDateSetListener;
+    import android.content.Intent;
     import android.os.Bundle;
     import android.text.InputType;
-    import android.view.Menu;
     import android.view.View;
     import android.view.View.OnClickListener;
+    import android.widget.Button;
+    import android.widget.CheckBox;
     import android.widget.DatePicker;
     import android.widget.EditText;
 
-    public class MainActivity extends Activity implements OnClickListener, OnDateSetListener {
+public class MainActivity extends Activity implements OnClickListener, OnDateSetListener {
+
+
 
         //UI References
         private EditText fromDateEtxt;
         private DatePickerDialog fromDatePickerDialog;
-
-
+        public final int REQUEST_CODE = 560;
 
         @Override
         protected void onCreate(Bundle savedInstanceState) {
@@ -46,16 +49,29 @@ package com.exemple.profedam.datepicker;
                2. L'objecte que el "vigila" i que implementa la interfície onDateSetListener
                3. Any, mes i dia del calendar que es mostren per defecte
              */
+            Button Calcularbtn = (Button) findViewById(R.id.button2);
+            Calcularbtn.setOnClickListener(this);
 
         }
-
-
-
-
         @Override
         public void onClick(View view) {
             if(view == fromDateEtxt) {
                 fromDatePickerDialog.show();
+            }else{
+                EditText text1 = (EditText) findViewById(R.id.etxt_fromdate);
+
+                Intent intent = new Intent (this, Main2Activity.class);
+                EditText text = (EditText) findViewById(R.id.editText);
+                String string = text.getText().toString();
+                intent.putExtra("nombre", string);
+                EditText text2 = (EditText) findViewById(R.id.etxt_fromdate);
+                String string2 = text2.getText().toString();
+                intent.putExtra("fecha", string2);
+
+
+                // startActivity(intent);
+
+                startActivityForResult(intent, REQUEST_CODE);
             }
         }
 
