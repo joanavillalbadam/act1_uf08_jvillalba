@@ -1,9 +1,5 @@
 package com.exemple.profedam.datepicker;
 
-
-
-
-
     import java.text.SimpleDateFormat;
     import java.util.Calendar;
     import java.util.Locale;
@@ -22,8 +18,6 @@ package com.exemple.profedam.datepicker;
     import android.widget.EditText;
 
 public class MainActivity extends Activity implements OnClickListener, OnDateSetListener {
-
-
 
         //UI References
         private EditText fromDateEtxt;
@@ -53,6 +47,9 @@ public class MainActivity extends Activity implements OnClickListener, OnDateSet
             Calcularbtn.setOnClickListener(this);
 
         }
+      /*Si hacemos click en la fecha nos aparecera un calendario para escoger fecha*/
+        /*cuando hagamos click en el boton 'calcular' nos enviara hacia el MainActivity2
+        * y tambien enviara el nombre que le hemos introducido*/
         @Override
         public void onClick(View view) {
             if(view == fromDateEtxt) {
